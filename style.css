@@ -1,0 +1,97 @@
+/**
+ * Theme Name:        BRM Custom Theme
+ * Description:       Este tema está desarrollado para BRM, diseñado para ofrecer una experiencia visual elegante y una funcionalidad optimizada, con un enfoque en la usabilidad y el rendimiento con el fin de adaptarse a diversas necesidades de diseño. 
+ * Version:           1.0.0
+ * Author:            Dairo Oswaldo Arce Ceballos
+ * Author URI:        https://arcedairo.github.io/
+ * Tags:              block-patterns, full-site-editing
+ * Text Domain:       brm-custom-theme
+ * Domain Path:       /assets/lang
+ * Tested up to:      6.4
+ * Requires at least: 6.2
+ * Requires PHP:      7.4
+ * License:           GNU General Public License v2.0 or later
+ * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
+ */
+ .container {
+   padding: 30px;
+   width: 400px;
+   margin: 0 auto;
+   border-radius: 20px;
+   background-color: var(--wp--preset--color--contrast);
+}
+
+.container h2{
+   text-align: center;
+   padding: 0;;
+   margin: 20px 0 20px;
+   color: black;
+}
+
+.elemento input{
+   width: 100%;
+   padding: 10px 0;
+   border: none;
+   border-bottom: 1px solid var(--wp--preset--color--accent-2);
+   margin-bottom: 10px;
+}
+
+.elemento input[type="submit"]{
+   background: var(--wp--preset--color--accent-3);
+   background: linear-gradient(90deg, var(--wp--preset--color--accent-3) 40%, var(--wp--preset--color--accent-2) 100%);
+   cursor: pointer;
+   border: none;
+   border-radius: 15px;
+   text-transform: uppercase;
+   margin-top: 20px;
+   font-weight: bold;
+}
+
+.elemento input:focus{
+    outline: none;
+}
+
+ .forma{
+    color: black;
+    margin: 0 15px;  
+ }
+
+ .container2{
+   color: black;
+   font-weight: 600;
+   padding: 20px;
+   border-radius: 10px;
+   background-color: var(--wp--preset--color--contrast);
+ }
+
+ .container2 input{
+   border: none;
+   border-bottom: 2px solid var(--wp--preset--color--accent-2);;
+}
+.container2 input:focus{
+   outline: none;
+}
+
+.container2 input[type="submit"]{
+   background: var(--wp--preset--color--accent-3);
+   background: linear-gradient(90deg, var(--wp--preset--color--accent-3) 40%, var(--wp--preset--color--accent-2) 100%);
+   cursor: pointer;
+   border: none;
+   border-radius: 10px;
+   padding: 10px 30px;
+   text-transform: uppercase;
+   font-weight: bold;
+   margin: 0 20px;
+}
+
+.alert{
+   text-align: center; 
+}
+
+.contacto-info{
+   padding: 30px 0;
+   text-align: center;
+   color: black;
+   background-color: white;
+   border-radius: 10px;
+}

@@ -1,0 +1,168 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version":2, 
+
+  "customTemplates": [
+     {
+        "name": "form-template",
+        "title": "Form-Template",
+        "postTypes": [
+            "page",
+            "contactos"
+        ]
+     }
+  ],
+
+  "settings": {
+    
+       "color": {
+            "palette": [
+                {
+                    "slug": "base",
+                    "color": "#355AE6",
+                    "name": "Color base"
+                },
+
+                {
+                    
+                    "slug": "contrast",
+                    "color": "#FFFFFF",
+                    "name": "Color contraste"
+
+                }, 
+
+                {
+                    "slug": "accent",
+                    "color": "#6B6B6B",
+                    "name": "Accent 1"
+                }, 
+
+                {
+                    "slug": "accent-2",
+                    "color": "#335AE6",
+                    "name": "Accent 2"
+                }, 
+
+                {
+                    "slug": "accent-3",
+                    "color": "#B6F0FF",
+                    "name": "Accent 3"
+                }
+
+
+            ], 
+
+            "gradients": [
+                {
+                    "slug": "accent-2-to-contrast",
+                    "gradient": "linear-gradient(135deg, var(--wp--preset--color--accent-2) 0%, var(--wp--preset--color--contrast) 100%)", 
+                    "name": "Accent 2 to Contrast"
+                }, 
+
+                {
+					"name": "Tiffany to Royal",
+					"slug": "tiffany-royal",
+					"gradient": "linear-gradient(135deg,rgb(14,202,212) 0%,rgb(126,92,239) 100%)"
+				}
+   
+            ]   
+
+       }, 
+
+       "typography": {
+            "fluid": true,
+            "fontFamilies": [
+              {
+                "fontFace": [
+                    {
+                        "fontFamily": "Proxima-nova",
+                        "fontStretch": "normal", 
+                        "fontStyle": "normal",
+                        "fontWeight": "400",
+                        "src": [
+                            "file:./assets/fonts/proxima-nova/proximanova_regular.ttf"
+                        ]
+                    }
+                ],
+
+                "fontFamily": "\"Proxima-nova\", sans-serif",
+                "name": "Proxima-nova",
+                "slug": "body"
+              }
+
+            ], 
+
+            "fontSizes": [
+                {
+                    "slug": "extra-small",
+                    "size": "1rem",
+                    "name": "Extra small"
+                },
+
+                {
+                    "slug": "small",
+                    "size": "1.125rem",
+                    "name": "Small"
+                }, 
+
+                {
+                    "slug": "medium",
+                    "size": "1.25rem",
+                    "name": "Medium"
+                }, 
+
+                {
+                    "slug": "large",
+                    "size": "1.5rem",
+                    "name": "Large"
+                }, 
+
+                {
+                    "slug": "extra-large",
+                    "size": "2.5rem",
+                    "name": "Extra large"
+                }     
+            ]
+       }, 
+       
+       "spacing": {
+           "padding": true,
+           "margin": true,
+           "units": [
+            "px",
+            "em",
+            "rem",
+            "vh",
+            "vw",
+            "%"
+           ]
+       },
+
+       "layout":{
+        "contentSize": "620px",
+        "wideSize": "1280px"
+       }
+  }, 
+
+  "styles": {
+        "color":{
+            "background": "var(--wp--preset--color--base)",
+            "text": "var(--wp--preset--color--contrast)"
+        }, 
+
+        "elements": {
+            "link": {
+                "color": {
+                    "text": "var(--wp--preset--color--accent-3)"
+                }
+            }
+        }, 
+
+        "typography": {
+            "fontSize": "var(--wp--preset--font-size--medium)",
+            "fontFamily": "var(--wp--preset--font-family--body)",
+            "lineHeight": "1.7"
+        }
+
+  } 
+}
